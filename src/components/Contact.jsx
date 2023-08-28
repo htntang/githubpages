@@ -1,6 +1,7 @@
 import { useState, formRef } from "react";
 import { motion } from "framer-motion";
 import emailsjs from "@emailjs/browser";
+
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
@@ -15,9 +16,51 @@ const Contact = () => {
 
   const [loading, setLoading] = useState(false);
 
-  const handleChange = (e) => {};
+  const handleChange = (e) => {
+    const { target, value } = e.target;
 
-  const handleSubmit = (e) => {};
+    setForm({ ...form, [name]: value });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true);
+
+    emailsjs
+      .send(
+        "service_rckksrz",
+        "template_rwixcsx",
+        {
+          from_name: form.name,
+          to_name: "Han",
+          from_email: form.email,
+          to_email: "htntang@gmail.com",
+          message: form.message,
+        },
+        "v6Uof06vEbLzmly4G"
+      )
+      .then(
+        () => {
+          setLoading(false);
+          alert(
+            "Thank you for your message! I will get back to you as soon as possible."
+          );
+
+          setForm({
+            name: "",
+            email: "",
+            message: "",
+          });
+        },
+        (error) => {
+          setLoading(false);
+
+          console.log(error);
+
+          alert("Something went wrong.");
+        }
+      );
+  };
 
   return (
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
