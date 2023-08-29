@@ -42,19 +42,19 @@ import {
   
   const services = [
     {
-      title: "Frontend Developer",
+      title: "Frontend Development",
       icon: web,
     },
     {
-      title: "Backend Developer",
+      title: "Backend Development",
       icon: backend,
     },
     {
-      title: "Marketing Strategist",
+      title: "Marketing Strategy",
       icon: mobile,
     },
     {
-      title: "Content Creator",
+      title: "Content Creation",
       icon: creator,
     },
   ];
@@ -81,10 +81,6 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
       name: "Tailwind CSS",
       icon: tailwind,
     },
@@ -107,66 +103,77 @@ import {
     {
       name: "figma",
       icon: figma,
+    }
+  ];
+  
+  const education = [
+    {
+      degree:"Full Stack Development Program",
+      school:"InceptionU",
+      icon:"",
+      iconBg:"#383E56",
+      date:"February 2023 - July 2023",
+      city:"Calgary, AB, Canada"
     },
     {
-      name: "docker",
-      icon: docker,
+      degree:"Bachelor of Arts (B.A.) - Religious Studies & Politics",
+      school:"University of Manitoba",
+      icon:"",
+      iconBg:"#383E56",
+      date: "September 2017 - April 2021",
+      city: "Winnipeg, MB, Canada"
     },
-  ];
+    {
+      degree: "Bachelor of Arts (B.A.) - Exchange Program",
+      school:"Linköpings universitet",
+      icon:"",
+      iconBg: "#383E56",
+      date:"January 2019 - August 2019",
+      city:"Linköping, Östergötland, Sweden"
+    }
+  ]
+
+  const volunteering = [
+    {
+      org:"Women's Heath Clinic",
+      title:"Reproductive Health Counsellor",
+      city:"Winnipeg, MB, Canada"
+    },
+    {
+      org:"Manitoba Museum of Man and Nature",
+      title:"Interpreter / Guide",
+      city: "Winnipeg, MB, Canada"
+    },
+    {
+      org: "Friends of Medicins Sans Frontier / Doctors Without Borders - University of Manitoba Chapter",
+      title: "Vice President - Events",
+      city: "Winnipeg, MB, Canada"
+    },
+    {
+      org: "Look Good Feel Better (LGFB)",
+      title: "Volunteer",
+      city:"Winnipeg, MB, Canada"
+    },
+    {
+      org: "Habitat For Humanity",
+      title: "Volunteer",
+      city:"Winnipeg, MB, Canada"
+    }
+  ]
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Marketing Strategist & Social Media Manager",
+      company_name: "Scentrique",
+      icon: "",
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      city:"Vancouver, BC, Canada",
+      date: "July 2022 - June 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Pioneered overall marketing strategy (positioning and messaging) and developed key marketing initiatives, user acquisitions, conversions, and retention price-to-product launches.",
+        "Grew social media presence on Instagram by 180% (from 4000 to 9000); and on TikTok (from 0 to 2000).",
       ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    }
   ];
   
   const testimonials = [
@@ -198,58 +205,37 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "StriveOpp",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Worked in a team to create a full-stack web application that serves as a database for scholarships, bursaries, and funding opportunities for both domestic and international post-secondary students; and a platform to match mentors to student mentees via AI-powered sorting system.",
       tags: [
         {
-          name: "react",
+          name: "react.js",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "firebase",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "next.js",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: "",
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "TEC-YYC Coalition",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Collaborated in a team as a web developer to create a WordPress website that acts as a database of educational and career resources for Albertans who wish to pivot their careers into the tech industry.",
       tags: [
         {
-          name: "react",
+          name: "wordpress",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
+          name: "figma",
           color: "green-text-gradient",
         },
         {
@@ -257,9 +243,51 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: "",
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Every Child Plays",
+      description:
+        "Worked in a team to create a web-based application that acts as a directory to catalogue, search, and filter through the playgrounds of Calgary by its accessible features to allow parents and/or guardians of neuro-diverse children of all physical abilities to find a place to play according to their needs.",
+      tags: [
+        {
+          name: "reactjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: "",
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Etymolo-Tree",
+      description:
+        "An etymology rolodex that tracks linguistic family trees and the development of language and meaning of words through cultural change, time, and political upheaval.",
+      tags: [
+        {
+          name: "api",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongodb",
+          color: "green-text-gradient",
+        },
+        {
+          name: "nodejs",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: "",
       source_code_link: "https://github.com/",
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, education, volunteering, experiences, testimonials, projects };

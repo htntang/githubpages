@@ -44,9 +44,10 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled full stack developer with experience in JavaScript and
-        TypeScript, and expertise in frameworks like React, Node.js, Next.js,
-        and Three.js.
+        I am a tenacious learner with a passion for UX / UI, a keen eye for
+        design, and an aspiration to become a full stack developer. 
+        An innovative and adaptable individual with a rare mix of abilities in
+        web development, content generation, and marketing strategy.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
