@@ -15,10 +15,10 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    inceptionu,
+    linkoping,
+    scentrique,
+    umanitoba,
     carrent,
     jobit,
     tripguide,
@@ -110,15 +110,15 @@ import {
     {
       degree:"Full Stack Development Program",
       school:"InceptionU",
-      icon:"",
-      iconBg:"#383E56",
+      icon: inceptionu,
+      iconBg:"#fff",
       date:"February 2023 - July 2023",
       city:"Calgary, AB, Canada"
     },
     {
       degree:"Bachelor of Arts (B.A.) - Religious Studies & Politics",
       school:"University of Manitoba",
-      icon:"",
+      icon:umanitoba,
       iconBg:"#383E56",
       date: "September 2017 - April 2021",
       city: "Winnipeg, MB, Canada"
@@ -126,7 +126,7 @@ import {
     {
       degree: "Bachelor of Arts (B.A.) - Exchange Program",
       school:"Linköpings universitet",
-      icon:"",
+      icon:linkoping,
       iconBg: "#383E56",
       date:"January 2019 - August 2019",
       city:"Linköping, Östergötland, Sweden"
@@ -165,7 +165,7 @@ import {
     {
       title: "Marketing Strategist & Social Media Manager",
       company_name: "Scentrique",
-      icon: "",
+      icon: scentrique,
       iconBg: "#383E56",
       city:"Vancouver, BC, Canada",
       date: "July 2022 - June 2023",

@@ -22,7 +22,7 @@ const EducationCard = ({ education }) => (
         <img
           src={education.icon}
           alt={education.school}
-          className="w-[60%] h-[60%] object-contain"
+          className="w-full h-full object-contain"
         />
       </div>
     }
