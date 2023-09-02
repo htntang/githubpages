@@ -25,6 +25,7 @@ import umanitoba from "./company/umanitobatransparent.png";
 import scentrique from "./company/scentriquetransparent.png";
 import linkoping from "./company/linkopingtransparent.png";
 import inceptionu from "./company/inceptionutransparent.png";
+import tiktok from "./company/tiktok.png"
 
 import tecyyc from "./tecyyc.png";
 import etymolotree from "./etymolotree.jpeg";
@@ -61,4 +62,5 @@ export {
   etymolotree,
   everychildplays,
   striveopp,
+  tiktok
 };

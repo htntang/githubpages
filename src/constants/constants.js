@@ -24,12 +24,17 @@ import {
     everychildplays,
     threejs,
     striveopp,
+    tiktok,
   } from "../assets";
   
   export const navLinks = [
     {
       id: "about",
       title: "About",
+    },
+    {
+      id:"education",
+      title:"Education"
     },
     {
       id: "work",
@@ -172,6 +177,18 @@ import {
       date: "July 2022 - June 2023",
       points: [
         "Pioneered overall marketing strategy (positioning and messaging) and developed key marketing initiatives, user acquisitions, conversions, and retention price-to-product launches.",
+        "Grew social media presence on Instagram by 180% (from 4000 to 9000); and on TikTok (from 0 to 2000).",
+      ],
+    },
+    {
+      title: "Content Creator",
+      company_name: "TikTok",
+      icon: tiktok,
+      iconBg: "#383E56",
+      city:"Canada",
+      date: "April 2022 - Present",
+      points: [
+        "Organically created a community ",
         "Grew social media presence on Instagram by 180% (from 4000 to 9000); and on TikTok (from 0 to 2000).",
       ],
     }
