@@ -21,14 +21,15 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import umanitoba from "./company/umanitoba.png";
-import scentrique from "./company/scentrique.png";
-import linkoping from "./company/linkoping.png";
-import inceptionu from "./company/inceptionu.png";
+import umanitoba from "./company/umanitobatransparent.png";
+import scentrique from "./company/scentriquetransparent.png";
+import linkoping from "./company/linkopingtransparent.png";
+import inceptionu from "./company/inceptionutransparent.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import tecyyc from "./tecyyc.png";
+import etymolotree from "./etymolotree.jpeg";
+import everychildplays from "./everychildplays.png";
+import striveopp from "./striveopp.png";
 
 export {
   logo,
@@ -56,7 +57,8 @@ export {
   linkoping,
   inceptionu,
   umanitoba,
-  carrent,
-  jobit,
-  tripguide,
+  tecyyc,
+  etymolotree,
+  everychildplays,
+  striveopp,
 };

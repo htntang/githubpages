@@ -19,10 +19,11 @@ import {
     linkoping,
     scentrique,
     umanitoba,
-    carrent,
-    jobit,
-    tripguide,
+    tecyyc,
+    etymolotree,
+    everychildplays,
     threejs,
+    striveopp,
   } from "../assets";
   
   export const navLinks = [
@@ -222,13 +223,13 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: "",
-      source_code_link: "https://github.com/",
+      image: striveopp,
+      source_code_link: "https://github.com/nvargas210680/StriveOpp",
     },
     {
       name: "TEC-YYC Coalition",
       description:
-        "Collaborated in a team as a web developer to create a WordPress website that acts as a database of educational and career resources for Albertans who wish to pivot their careers into the tech industry.",
+        "[In-Progress] Collaborated in a team as a web developer to create a WordPress website that acts as a database of educational and career resources for Albertans who wish to pivot their careers into the tech industry.",
       tags: [
         {
           name: "wordpress",
@@ -243,7 +244,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: "",
+      image: tecyyc,
       source_code_link: "https://github.com/",
     },
     {
@@ -264,8 +265,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: "",
-      source_code_link: "https://github.com/",
+      image: everychildplays,
+      source_code_link: "https://github.com/htntang/everychildplays",
     },
     {
       name: "Etymolo-Tree",
@@ -285,7 +286,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: "",
+      image: etymolotree,
       source_code_link: "https://github.com/",
     },
   ];
