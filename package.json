@@ -2,7 +2,7 @@
   "name": "unique-grass",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://htntang.github.io/unique-grass",
+  "homepage": "https://hantang.dev",
   "type": "module",
   "scripts": {
     "dev": "vite",

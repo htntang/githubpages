@@ -44,6 +44,9 @@ const Hero = () => {
           </div>
         </a>
       </div>
+      <div>
+        <img src="" />
+      </div>
     </section>
   );
 };
