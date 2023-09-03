@@ -48,7 +48,7 @@ const Navbar = () => {
             >
               <img
                 src={linkedin}
-                alt="logo"
+                alt="linkedin"
                 className="w-9 h-9 object-contain"
               />
             </Link>
@@ -60,7 +60,7 @@ const Navbar = () => {
             >
               <img
                 src={githubnavbar}
-                alt="logo"
+                alt="github"
                 className="w-9 h-9 object-contain"
               />
             </Link>
