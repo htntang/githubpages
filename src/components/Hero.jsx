@@ -19,7 +19,7 @@ const Hero = () => {
             Hello! My name is <span className="text-[#FF6933]">Han</span>.
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Multi-passionate, multi-hypenated, and multifaceted.
+            Multi-passionate, multi-hyphenated, and multifaceted.
           </p>
           <h2 className={`${styles.sectionSubText} mt-3`}>
             Full-Stack Developer | Marketing Strategist | Content Creator

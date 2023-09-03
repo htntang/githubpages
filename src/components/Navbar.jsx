@@ -3,7 +3,9 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants/constants";
-import { logo, menu, close } from "../assets";
+import { logo, menu, close, githubnavbar } from "../assets";
+
+import { linkedin } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -39,6 +41,30 @@ const Navbar = () => {
               <a href={`#${link.id}`}>{link.title}</a>
             </li>
           ))}
+          <li>
+            <Link
+              to="https://www.linkedin.com/in/htntang/"
+              className="flex items-right"
+            >
+              <img
+                src={linkedin}
+                alt="logo"
+                className="w-9 h-9 object-contain"
+              />
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="https://github.com/htntang/"
+              className="flex items-right"
+            >
+              <img
+                src={githubnavbar}
+                alt="logo"
+                className="w-9 h-9 object-contain"
+              />
+            </Link>
+          </li>
         </ul>
 
         {/* Mobile Display */}

@@ -3,7 +3,7 @@ import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
-import github from "./github.png";
+import github from "./tech/git.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -26,11 +26,13 @@ import scentrique from "./company/scentriquetransparent.png";
 import linkoping from "./company/linkopingtransparent.png";
 import inceptionu from "./company/inceptionutransparent.png";
 import tiktok from "./company/tiktok.png"
+import linkedin from "./linkedin.png"
 
 import tecyyc from "./tecyyc.png";
 import etymolotree from "./etymolotree.jpeg";
 import everychildplays from "./everychildplays.png";
 import striveopp from "./striveopp.png";
+import githubnavbar from "./githubnavbar.png"
 
 export {
   logo,
@@ -62,5 +64,7 @@ export {
   etymolotree,
   everychildplays,
   striveopp,
-  tiktok
+  tiktok,
+  linkedin,
+  githubnavbar
 };
